@@ -1,0 +1,20 @@
+Wave Audio Reconstruction Program in Python
+By Varun Chandramohan, 2016.
+
+About the Program
+-----------------
+The program demonstrates an environment to perform an analysis of the frequencies of a two-channel wave audio source.  For this step, DTFT (Discrete Time Fourier Transform) of the wave audio source (a wave file) is performed.
+Assuming that the necessary analysis is performed, next step is to "sew back" the original wave audio from the frequency information.  
+For this, the IDTFT (Inverse Discrete Time Fourier Transform) is used.  To play the reconstructed wave audio, the contents are written into a output wave file "Output.wav". Playback of this file is attempted to verify the authenticity of the reconstructed data.
+
+You would need a system running a Python editor to run this program.  As this program contains signal plots, the Python editor is best suited if it has the MATPLOTLIB module.  As the program contains audio, a speaker can connected to the system to listen to the sound.
+
+Thank you for your interest.
+
+
+The audio source used for this program is placed in the same folder as that of the .py script file.
+The name of the source is by default "Input File.wav".  You can replace the file with any other two-channel wave audio file and name it to "Input File.wav".
+
+The destination is a wave audio file named "Output File.wav".  You can replace the file with any other wave audio file and name it to "Output File.wav". 
+
+
